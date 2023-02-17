@@ -27,7 +27,7 @@ const Sidebar = () => {
 
   return (
     <Drawer open={open}>
-      <Advertisement />
+      {/* <Advertisement /> */}
 
       <Toolbar direction={open ? 'row' : 'column'} />
 
